@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DT Bottom Menu</string>
+
+    <!-- List Cart -->
+    <string name="three_item_"></string>
+
+    <!-- Cart -->
+    <string name="three_item_name">Корзина</string>
+    <string name="three_item_promo">Промокод</string>
+    <string name="three_item_enter_promo">Ввести промокод</string>
+    <string name="three_item_result">Итого без доставки</string>
+    <string name="three_item_button">Оформить заказ</string>
+    <string name="three_item_else">или</string>
+    <string name="three_item_button_text"><u>Вы можете оформить регулярную подписку на товары в корзине</u></string>
+</resources>
+    <!-- <string name=""></string> -->
