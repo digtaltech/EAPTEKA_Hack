@@ -7,7 +7,7 @@
           </router-link>
         </div>
 
-        <div style="margin-left: 28rem">
+        <div style="margin-left: 16rem">
           <div>
             <strong>
               8 495 730 53 00
@@ -32,6 +32,11 @@
         <div style="margin-left: 1rem">
           <router-link :to="{name: 'basket'}">
             <button style="background-color: #8068F0; color: #ffffff; border-radius: 30px; height:50px; width:150px" type="button" class="btn">Корзина</button>
+          </router-link>
+        </div>
+        <div style="margin-left: 1rem">
+          <router-link :to="{name: 'sub'}">
+            <button style="background-color: #FF3399; color: #ffffff; border-radius: 30px; height:50px; width:150px" type="button" class="btn">Личный кабинет</button>
           </router-link>
         </div>
 
@@ -133,6 +138,7 @@
 </template>
 
 <script>
+
 export default {
 
 }

@@ -8,14 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ButtonMinus">
-        <item name="android:background">@drawable/button_minus</item>
-    </style>
-    <style name="ButtonPlus">
-        <item name="android:background">@drawable/button_plus</item>
-    </style>
-    <style name="TextPlusMinus">
-        <item name="android:background">@drawable/text_pm</item>
-    </style>
 </resources>
-

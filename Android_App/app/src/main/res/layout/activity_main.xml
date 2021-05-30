@@ -22,19 +22,11 @@
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"
-        android:background="@drawable/shadow_144910"
+        android:elevation="2dp"
         android:orientation="horizontal"
-        android:weightSum="5"
+        android:weightSum="3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
-
-        <ImageView
-            android:id="@+id/ivAbout"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:padding="@dimen/bottom_icon_padding"
-            app:srcCompat="@drawable/ic_plus_on" />
 
         <ImageView
             android:id="@+id/ivHome"
@@ -42,7 +34,15 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:padding="@dimen/bottom_icon_padding"
-            app:srcCompat="@drawable/ic_catalog_off" />
+            android:src="@drawable/ic_home" />
+
+        <ImageView
+            android:id="@+id/ivAbout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/bottom_icon_padding"
+            android:src="@drawable/ic_about" />
 
         <ImageView
             android:id="@+id/ivSettings"
@@ -50,22 +50,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:padding="@dimen/bottom_icon_padding"
-            app:srcCompat="@drawable/ic_cart_off" />
-
-        <ImageView
-            android:id="@+id/ivFourItem"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:padding="@dimen/bottom_icon_padding"
-            app:srcCompat="@drawable/ic_like_off" />
-
-        <ImageView
-            android:id="@+id/ivFiveItem"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:padding="@dimen/bottom_icon_padding"
-            app:srcCompat="@drawable/ic_profile_off" />
+            android:src="@drawable/ic_settings" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
